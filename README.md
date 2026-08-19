@@ -12,6 +12,30 @@ This repository contains a two-step workflow for reconstructing 3D building geom
 - `Step1/`: point-cloud preprocessing, building/non-building separation, outlier removal, and cluster extraction.
 - `Step2/`: building image extraction, line detection, candidate box generation, 3D frame generation, and CityGML export.
 
+## Installation
+
+This project was prepared for Python 3.10.16. Create a virtual environment and install the required packages:
+
+```bash
+python -m venv .venv
+```
+
+On Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+On Linux/macOS:
+
+```bash
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+For CUDA 11.8 PyTorch wheels, use the PyTorch index noted in `requirements.txt`.
+
 ## Results
 
 ### 3D reconstruction preview
@@ -20,7 +44,7 @@ This repository contains a two-step workflow for reconstructing 3D building geom
 
 ### Candidate box extraction on orthophoto
 
-![Candidate boxes on orthophoto](Step2/docs/figures/candidate_boxes_orthophoto.png)
+![Candidate boxes on orthophoto](Step2/docs/figures/candidate_boxes_orthophoto.jpeg)
 
 ### Footprint extraction results in the Suseo area
 

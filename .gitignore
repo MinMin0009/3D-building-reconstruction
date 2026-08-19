@@ -14,7 +14,6 @@ data/
 run/
 /PATH_LOGIC_CHANGES.md
 /cloth_nodes.txt
-/requirements.txt
 Step1/code/Pointcloud_Separation/cloth_nodes.txt
 *.h5
 *.hdf5

@@ -1,0 +1,49 @@
+# Requirements for Python 3.10.16
+# NOTE: This file uses pip only.
+# If you specifically need CUDA 11.8 wheels for PyTorch, keep the extra index URL below.
+# If you ever get CPU-only wheels, pin to the CUDA 11.8-compatible series .
+
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Core numerical stack
+numpy~=1.26.0
+scipy==1.15.1
+pandas==2.2.3
+
+
+# CV / imaging
+opencv-python==4.11.0.86
+scikit-image
+albumentations
+
+# GIS / geometry / point clouds
+rasterio==1.4.3
+shapely
+laspy==2.5.4
+alphashape
+cloth-simulation-filter
+
+# ML / DL
+scikit-learn
+tensorflow
+keras
+torch
+torchvision
+torchaudio
+timm
+yacs
+
+# Utilities / misc
+PyYAML
+matplotlib
+pillow
+joblib
+tqdm
+flask
+requests
+
+
+faiss-cpu
+# Windows note (outside pip):
+# You may still need the Microsoft Visual C++ Redistributable:
+# https://aka.ms/vs/17/release/vc_redist.x64.exe
