@@ -22,11 +22,11 @@ This repository contains a two-step workflow for reconstructing 3D building geom
 
 ![Candidate boxes on orthophoto](Step2/docs/figures/candidate_boxes_orthophoto.png)
 
-### Footprint extraction in Suseo area
+### Footprint extraction results in the Suseo area
 
-![Footprint extraction in Suseo area](Step2/docs/figures/footprint_extraction_suseo.png)
+![Footprint extraction results in the Suseo area](Step2/docs/figures/footprint_extraction_suseo.png)
 
-Figure 18. Footprint extraction in Suseo area: (a) ground truth and (b) our result using a 15 m height threshold.
+Figure 18. Footprint extraction results in the Suseo area: (a) ground truth and (b) our result using a 15 m height threshold.
 
 ## Quantitative Evaluation
 
