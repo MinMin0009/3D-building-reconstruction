@@ -1,0 +1,15 @@
+paths:
+  tiff_path: "F:/Myongji University 2026/project/Building Project (LoD3)/building_citydoctor2_check/data/ortho/ortho_1.tif"
+  las_path: "F:/Myongji University 2026/project/Building Project (LoD3)/building_citydoctor2_check/data/pointcloud/suseo_test.las"
+  model_path: "F:/Myongji University 2026/project/Building Project (LoD3)/building_citydoctor2_check/data/model/model_suseo.h5"
+  result_path: "F:/Myongji University 2026/project/Building Project (LoD3)/building_citydoctor2_check/run/exp1"
+
+model_params:
+  input_size: [256, 256, 3]
+  learning_rate : 0.0001
+  dropout_rate : 0.2
+  batch_size : 16
+  epochs : 100
+  smooth : 1
+  tile_size : 1000 
+  resize_scale : 0.5
