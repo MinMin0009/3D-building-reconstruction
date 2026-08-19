@@ -39,3 +39,8 @@ Step1/code/Pointcloud_Separation/cloth_nodes.txt
 Thumbs.db
 .vscode/
 .idea/
+
+# Local manuscript/extraction scratch
+IEEE_draft_v1.docx
+tmp_docx_extract_figure/
+tmp_docx_extract_figure.zip
